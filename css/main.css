@@ -27,10 +27,15 @@
 
 h4, h1, a {
     font-family: 'Nunito', sans-serif;
+    color : #fff
 }
 
 @media (max-width: 768px) {
-    .hero {
-        min-height: 100vh;
+    .cc-header {
+    background-color: #fff;
+    }
+
+    h4 {
+        color: #000;
     }
 }
