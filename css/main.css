@@ -1,13 +1,21 @@
 
+.banner {
+    background:  url(../img/hero.jpeg) 
+    center center fixed no-repeat;
+    height:100vh;
+    background-size: cover;
+    position: relative;
+    color: white;
+    text-shadow: 2px 2px 2px rgba(0,0,0,.2);
 
+
+
+}
 
 .hero {
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
-    position: relative;
-    color: white;
-    text-shadow: 2px 2px 2px rgba(0,0,0,.2);
 }
 
 .color-overlay {
