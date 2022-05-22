@@ -53,7 +53,31 @@ h4, h1, a {
         font-weight: 400;
     }
 
+    .container-custom {
+        width: 100%;
+        padding: 0 1rem;
+        margin: 0 auto;
+    }
+    .footer__color__home, .footer__color__portfolio {
+        background-color: #D3D3D3;
+    }
+    
+    
 
-@media (max-width: 768px) {
-   
+@media (min-width: 1200px) { 
+.container-custom {
+    width: 100%;
+}
+}
+@media (min-width: 720px) { 
+.container-custom {
+    width: 100%;
+    float: left;
+}
+}
+@media (min-width: 597px) { 
+.container-custom {
+    width: 100%;
+    float: left;
+}
 }
