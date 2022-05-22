@@ -1,41 +1,59 @@
-
-.banner {
-    background:  url(../img/hero.jpeg) 
-    center center fixed no-repeat;
-    height:100vh;
-    background-size: cover;
-    position: relative;
-    color: white;
-    text-shadow: 2px 2px 2px rgba(0,0,0,.2);
-
-
-
-}
-
-.hero {
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 100vh;
-}
-
-.color-overlay {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0,0,0,.2);
+.cc-navbar {
+    font-family: 'Ubuntu Mono', serif;
+    background-color: rgba(0, 0, 0, 0.55);
+    box-shadow: 1px 1px 3px rgba(255, 255, 255, 0.54);
+    z-index: 99;
 }
 
 h4, h1, a {
     font-family: 'Nunito', sans-serif;
     color : #fff
 }
+.btn-order {
+    color: var(--bs-teal);
+    border-color: var(--bs-teal);
+    transition: 0.5s;
+}
+
+.btn-order:hover,
+.btn-order:active {
+    color: #fff;
+    background-color: var(--bs-teal) ;
+}
+
+.cc-navbar 
+.nav-link {
+    border-bottom: 1px solid transparent;
+    transition: padding-bottom 0.4s ease-in-out, border-color 0.3s ease;
+}
+
+.cc-navbar 
+.nav-link:hover {
+   padding-bottom: 20px;
+   border-bottom-color: var(--bs-teal);
+}
+
+    .color-overlay {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0,0,0,.2);
+    }
+    .banner {
+        background:  url(../img/hero.jpeg) 
+        center center fixed no-repeat;
+        height:100vh;
+        background-size: cover;
+        color: #fff;
+    }
+    
+    .banner .banner-desc {
+        font-size: 28px;
+        color: #fff;
+        font-weight: 400;
+    }
+
 
 @media (max-width: 768px) {
-    .cc-header {
-    background-color: #fff;
-    }
-
-    h4 {
-        color: #000;
-    }
+   
 }
