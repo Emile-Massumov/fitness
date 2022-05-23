@@ -47,13 +47,7 @@ h4, h1, a {
         color: #fff;
     }
 
-    .banner2 {
-        background:  url(../img/sule-makaroglu-YFmvjO3TP_s-unsplash.jpg) 
-        center center fixed no-repeat;
-        height:100vh;
-        background-size: cover;
-        color: #fff;
-    }
+    
     
     .banner .banner-desc {
         font-size: 28px;
