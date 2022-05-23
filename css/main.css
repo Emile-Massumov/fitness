@@ -1,8 +1,8 @@
 .cc-navbar {
     font-family: 'Ubuntu Mono', serif;
-    background-color: rgba(0, 0, 0, 0.55);
-    box-shadow: 1px 1px 3px rgba(255, 255, 255, 0.54);
+    /*background-color: rgba(0, 0, 0, 0.55);*/
     z-index: 99;
+    background-color: transparent;
 }
 
 h4, h1, a {
@@ -41,6 +41,14 @@ h4, h1, a {
     }
     .banner {
         background:  url(../img/hero.jpeg) 
+        center center fixed no-repeat;
+        height:100vh;
+        background-size: cover;
+        color: #fff;
+    }
+
+    .banner2 {
+        background:  url(../img/sule-makaroglu-YFmvjO3TP_s-unsplash.jpg) 
         center center fixed no-repeat;
         height:100vh;
         background-size: cover;
