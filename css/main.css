@@ -46,13 +46,7 @@ h4, h1, a {
         background-size: cover;
         color: #fff;
     }
-    .cc-menu {
-        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../img/section-pic.jpg) 
-        center center fixed no-repeat;
-        height:1200px;
-        background-size: cover;
-
-
+   
     
     
     .banner .banner-desc {
