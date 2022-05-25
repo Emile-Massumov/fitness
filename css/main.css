@@ -1,59 +1,66 @@
-.cc-navbar {
-    font-family: 'Ubuntu Mono', serif;
-    /*background-color: rgba(0, 0, 0, 0.55);*/
-    z-index: 99;
-    background-color: transparent;
-}
 
-h4, h1, a {
-    font-family: 'Nunito', sans-serif;
-    color : #fff
-}
-.btn-order {
-    color: var(--bs-teal);
-    border-color: var(--bs-teal);
-    transition: 0.5s;
-}
-
-.btn-order:hover,
-.btn-order:active {
-    color: #fff;
-    background-color: var(--bs-teal) ;
-}
-
-.cc-navbar 
-.nav-link {
-    border-bottom: 1px solid transparent;
-    transition: padding-bottom 0.4s ease-in-out, border-color 0.3s ease;
-}
-
-.cc-navbar 
-.nav-link:hover {
-   padding-bottom: 20px;
-   border-bottom-color: var(--bs-teal);
-}
-
-    .color-overlay {
-        position: absolute;
-        width: 100%;
-        height: 100%;
-        background-color: rgba(0,0,0,.2);
-    }
-    .banner {
-        background:  url(../img/hero.jpeg) 
-        center center fixed no-repeat;
-        height:100vh;
-        background-size: cover;
-        color: #fff;
-    }
+   #header {
+       position: absolute;
+       z-index: 10;
+       width: 100%;
+   }
    
+   .navbar {
+       padding: 40px 0;
+   }
+
+   .navbar-brand {
+       font-weight: bold;
+       font-size: 1.5em;
+       text-transform: uppercase;
+       color: #ccc !important;
+   }
+
+   .nav-item {
+       font-weight: 600;
+       text-transform: uppercase;
+       padding-left: 50px;
+   }
+
+   .nav-link {
+       color: #ccc !important;
+       letter-spacing: 2px;
+       font-size: 1em;
+       font-weight: 700;
+   }
+
+   .nav-link:hover {
+       background: #dcdde1 !important;
+       color: #262626 !important;
+       border-radius: 5px;
+       transition: all 0.6s ease 0s;
+   }
+
+   .main {
+       position: relative;
+       background: url(../img/hero.jpeg);
+       min-height: 100vh;
+       background-size: cover;
+       background-position: center;
+       padding: 280px 0 280px;
+   }
+
+   .main h2 {
+       font-size: 2.6em;
+       color: #dcdde1;
+       text-transform: uppercase;
+       font-weight: bold;
+   }
+
+   .main .getInTouch {
+       background: #718093;
+       color: #fff;
+       border-radius: 5px;
+       padding: 10px 20px;
+       text-decoration: none;
+   }
     
-    
-    .banner .banner-desc {
-        font-size: 28px;
-        color: #fff;
-        font-weight: 400;
-    }
+
 
     .container-custom {
         width: 100%;
